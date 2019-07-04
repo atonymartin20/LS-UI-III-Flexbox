@@ -76,6 +76,11 @@ body {
     justify-content: center;
 }
 
+address, p {
+    font-size: 1.6rem;
+    line-height: 1.15;
+    text-align: left;
+}
 main {
     padding: 2%;
     text-align: center;
@@ -179,17 +184,12 @@ h1 {
     text-align: left;
     margin-top: 15px;
     margin-bottom: 45px;
-    line-height: 1.15;
-
-}
-
-.TopMid p {
-    font-size: 1.6rem;
 }
 
 h3 {
     font-size: 1.7rem;
     font-weight: 500;
+    text-align: left;
 }
 
 .BottomMid {
@@ -200,15 +200,11 @@ h3 {
     text-align: left;
     margin-top: 30px;
     margin-bottom: 25px;
-    font-size: 1.6rem;
-    line-height: 1.15;
 }
 
 .Contact {
     text-align: left;
     padding-left: 5%;
-    font-size: 1.6rem;
-    line-height: 1.15;
 }
 
 .Contact a {
@@ -217,7 +213,10 @@ h3 {
 }
 
 footer {
-    text-align: center;
     margin-top: 45px;
+}
+
+footer p {
+    text-align: center;
     font-size: 1.4rem;
 }
